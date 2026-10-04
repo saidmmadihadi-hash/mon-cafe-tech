@@ -1,0 +1,242 @@
+MON Café
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mon Café Tech - Cyber & Services | Mitsoudjé Barakani, Comores</title>
+<link rel="stylesheet" href="mon.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <nav>
+    <div class="logo">
+      <img src="logo.png" alt="Mon Café Tech">
+      <div>Mon <span>Café Tech</span></div>
+    </div>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <ul id="menu">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#tarifs">Tarifs</a></li>
+      <li><a href="#equipe">Équipe</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=61591969063179" target="_blank">📘 Facebook</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="accueil">
+  <div class="hero-content">
+    <img src="logo.png" alt="Mon Café Tech - Logo" class="hero-logo">
+    <h1>Bienvenue à Mon <span>Café Tech</span></h1>
+    <p>Votre cybercafé de confiance à Mitsoudjé Barakani, Comores.<br>
+    Impression, photocopie, flocage, maintenance et bien plus encore !</p>
+    <a href="#services" class="btn">Découvrir nos services</a>
+    <a href="https://wa.me/2694381860" class="btn btn-outline" target="_blank">📱 WhatsApp</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <h2 class="section-title">Nos Services</h2>
+    <p class="section-subtitle">Tout ce dont vous avez besoin, en un seul endroit</p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🖨️</div>
+        <h3>Impression</h3>
+        <p>Noir & blanc et couleur, tous formats</p>
+        <p class="price">À partir de 100 FC</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📄</div>
+        <h3>Photocopie</h3>
+        <p>Copies rapides et nettes</p>
+        <p class="price">À partir de 50 FC</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📷</div>
+        <h3>Photo d'identité</h3>
+        <p>Photos officielles petit & grand format</p>
+        <p class="price">1000 FC</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🖼️</div>
+        <h3>Photo grand format</h3>
+        <p>Impression photo grand & petit format</p>
+        <p class="price">1500 FC</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📠</div>
+        <h3>Scan</h3>
+        <p>Numérisation de tous vos documents</p>
+        <p class="price">150 FC</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">👕</div>
+        <h3>Flocage</h3>
+        <p>Tasse, t-shirt, verre, casquette, sac</p>
+        <p class="price">Sur devis</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📱</div>
+        <h3>Transfert Crédit</h3>
+        <p>Huri & Telma - rapide et sécurisé</p>
+        <p class="price">Service disponible</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔧</div>
+        <h3>Maintenance</h3>
+        <p>Téléphone, tablette, ordinateur, chauffe-eau</p>
+        <p class="price">Sur devis</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">💻</div>
+        <h3>Installation logiciels</h3>
+        <p>Windows, Kali Linux et autres</p>
+        <p class="price">Sur devis</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TARIFS -->
+<section id="tarifs" style="background:#fff;">
+  <div class="container">
+    <h2 class="section-title">Grille Tarifaire</h2>
+    <p class="section-subtitle">Des prix clairs et abordables</p>
+
+    <table class="tarifs-table">
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Détail</th>
+          <th>Prix</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Impression N&B</td><td>Par page</td><td class="price-cell">100 FC</td></tr>
+        <tr><td>Impression couleur</td><td>Par page</td><td class="price-cell">150 FC</td></tr>
+        <tr><td>Photocopie N&B</td><td>Par page</td><td class="price-cell">50 FC</td></tr>
+        <tr><td>Photocopie couleur</td><td>Par page</td><td class="price-cell">100 FC</td></tr>
+        <tr><td>Scan</td><td>Par page</td><td class="price-cell">150 FC</td></tr>
+        <tr><td>Photo identité</td><td>Jeu de photos</td><td class="price-cell">1000 FC</td></tr>
+        <tr><td>Photo grand format</td><td>Impression photo</td><td class="price-cell">1500 FC</td></tr>
+        <tr><td>Flocage</td><td>Tasse, t-shirt, verre...</td><td class="price-cell">Sur devis</td></tr>
+        <tr><td>Maintenance</td><td>Téléphone, PC, tablette...</td><td class="price-cell">Sur devis</td></tr>
+        <tr><td>Installation logiciels</td><td>Windows, Kali Linux...</td><td class="price-cell">Sur devis</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ÉQUIPE -->
+<section id="equipe" style="background:#f5f5f5;">
+  <div class="container">
+    <h2 class="section-title">Notre Équipe</h2>
+    <p class="section-subtitle">Des professionnels à votre service</p>
+
+    <div class="team-grid">
+      <div class="team-card chief">
+        <div class="team-avatar">👑</div>
+        <h3>Djalaloudine Mohamed Assoumani</h3>
+        <p class="role">Chef d'établissement</p>
+      </div>
+
+      <div class="team-card">
+        <div class="team-avatar">💼</div>
+        <h3>Hadi Saïd Mmadi</h3>
+        <p class="role">Responsable</p>
+      </div>
+
+      <div class="team-card">
+        <div class="team-avatar">🤝</div>
+        <h3>Kardhoiwi Ali Ibrahim</h3>
+        <p class="role">Adjoint</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2 class="section-title">Nous Contacter</h2>
+    <p class="section-subtitle">Venez nous rendre visite ou appelez-nous !</p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-icon">📍</div>
+        <h3>Adresse</h3>
+        <p>Mitsoudjé Barakani</p>
+        <p>Comores</p>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">📞</div>
+        <h3>Appel</h3>
+        <p><a href="tel:+2693312160">+269 331 21 60</a></p>
+        <p><a href="tel:+2693245816">+269 324 58 16</a></p>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">💬</div>
+        <h3>WhatsApp / SMS</h3>
+        <p><a href="https://wa.me/2694381860" target="_blank">+269 438 18 60</a></p>
+        <p><a href="https://wa.me/2693245816" target="_blank">+269 324 58 16</a></p>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">📘</div>
+        <h3>Facebook</h3>
+        <p><a href="https://www.facebook.com/profile.php?id=61591969063179" target="_blank">Mon Café Tech</a></p>
+        <p><a href="https://www.facebook.com/photo.php?fbid=122369278700000724&set=a.122112064394000724&type=3&app=fbl" target="_blank">Voir nos photos</a></p>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">🕒</div>
+        <h3>Horaires</h3>
+        <p>Lun - Sam : 8h - 20h</p>
+        <p>Dimanche : Sur rendez-vous</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 <span>Mon Café Tech</span> - Mitsoudjé Barakani, Comores</p>
+  <p>Impression • Photocopie • Flocage • Maintenance • Logiciels</p>
+  <p style="margin-top:10px;">
+    <a href="https://www.facebook.com/profile.php?id=61591969063179" target="_blank">📘 Suivez-nous sur Facebook</a>
+  </p>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/2694381860" class="whatsapp-float" target="_blank" title="Contactez-nous sur WhatsApp">💬</a>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('menu').classList.toggle('active');
+  }
+  document.querySelectorAll('#menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.getElementById('menu').classList.remove('active');
+    });
+  });
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+</script>
+
+</body>
+</html>
